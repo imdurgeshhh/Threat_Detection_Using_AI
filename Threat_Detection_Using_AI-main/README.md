@@ -150,13 +150,13 @@ Visualize scans and trends using charts (Recharts / Chart.js).
 ```
 ```
 ### 👨‍💻 Author
-Rohit Mondal
+Durgesh Nandan Sahu
 
 💼 Project: Threat Detection Using AI
 
 🌐 Vision: Creating smart solutions to protect India’s digital ecosystem.
 
-📧 Contact: rohitmondal.officiall@gmail.com
+📧 Contact: durgxhhh@gmail.com
 
 🪪 “Made in India | Secure Digital Bharat”
 ```
