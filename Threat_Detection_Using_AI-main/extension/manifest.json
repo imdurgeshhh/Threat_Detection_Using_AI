@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Threat Detection Extension",
+  "version": "1.0",
+  "description": "AI-powered threat detection for safer browsing.",
+  "action": {
+    "default_popup": "popup/dist/index.html",
+    "default_icon": "icons/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
+
